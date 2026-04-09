@@ -67,7 +67,7 @@ export default function ContactPage() {
                 <h3 style={{ marginBottom: 12 }}>⚡ Quick Order Options</h3>
                 <p>Need a search done fast? You can also order via:</p>
                 <p style={{ margin: 0 }}><strong style={{ color: 'var(--white)' }}>Email:</strong> Send property details to <a href="mailto:orders@neuskale.com" style={{ color: 'var(--pink)' }}>orders@neuskale.com</a></p>
-                <p style={{ margin: 0 }}><strong style={{ color: 'var(--white)' }}>Phone:</strong> Call us at <a href="tel:+18609628444" style={{ color: 'var(--pink)' }}>(860) 962-8444</a></p>
+                <p style={{ margin: 0 }}><strong style={{ color: 'var(--white)' }}>Phone:</strong> Call us at <a href="tel:+1 860-327-5055" style={{ color: 'var(--pink)' }}>+1 860-327-5055</a></p>
                 <p style={{ margin: 0 }}><strong style={{ color: 'var(--white)' }}>Existing Clients:</strong> Continue through your private ordering portal or email your usual Neuskale contact for rush requests.</p>
               </div>
             </div>
