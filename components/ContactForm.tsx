@@ -118,7 +118,7 @@ export default function ContactForm() {
         </div>
       )}
 
-      <form onSubmit={handleSubmit} noValidate netlify>
+      <form onSubmit={handleSubmit} noValidate data-netlify="true" name="contact">
         {/* Step 0: Contact */}
         {step === 0 && (
           <div className="wizard-panel">
