@@ -1,0 +1,15 @@
+<svg width="260" height="72" viewBox="0 0 260 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- V/Checkmark icon matching Qualia branding -->
+  <g transform="translate(4,4)">
+    <!-- Left arm of V - green -->
+    <path d="M6 6L26 56L32 42L12 6Z" fill="#4CAF50"/>
+    <!-- Right arm of V - dark gray/black -->
+    <path d="M26 56L32 42L52 6L46 6Z" fill="#3A3A3A"/>
+    <!-- Green highlight on left arm -->
+    <path d="M6 6L12 6L30 50L26 56Z" fill="#43A047"/>
+    <!-- Dark overlap at bottom vertex -->
+    <path d="M26 56L30 50L46 6L52 6Z" fill="#333333"/>
+  </g>
+  <!-- "Qualia" text -->
+  <text x="68" y="48" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="42" fill="#4A4A4A" font-weight="400" letter-spacing="-0.5">Qualia</text>
+</svg>

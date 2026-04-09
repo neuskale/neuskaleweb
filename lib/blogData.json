@@ -1,0 +1,902 @@
+[
+  {
+    "slug": "title-search-for-commercial-properties",
+    "href": "title-search-for-commercial-properties.html",
+    "cat": "Title Search",
+    "date": "February 26, 2026",
+    "title": "Commercial Property Title Searches: Key Differences from Residential",
+    "desc": "How commercial property title searches differ from residential ones and the additional due diligence required.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "water-sewer-lien-search",
+    "href": "water-sewer-lien-search.html",
+    "cat": "Lien",
+    "date": "February 16, 2026",
+    "title": "Water and Sewer Lien Searches: An Often Overlooked Step",
+    "desc": "Why water and sewer lien searches matter and how unpaid utility bills can create surprise liens on property titles.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "title-search-scalability-guide",
+    "href": "title-search-scalability-guide.html",
+    "cat": "Industry",
+    "date": "February 03, 2026",
+    "title": "Scaling Your Title Search Operations: A Growth Playbook",
+    "desc": "Proven strategies for scaling title search operations to handle increased volume without sacrificing quality.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "subordination-agreements-title",
+    "href": "subordination-agreements-title.html",
+    "cat": "Legal",
+    "date": "January 22, 2026",
+    "title": "Subordination Agreements and Their Impact on Title Priority",
+    "desc": "How subordination agreements change lien priority and why they matter in title searches and refinancing transactions.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "title-search-for-distressed-properties",
+    "href": "title-search-for-distressed-properties.html",
+    "cat": "Foreclosure",
+    "date": "January 12, 2026",
+    "title": "Title Searches for Distressed Properties: REO and Bank-Owned Homes",
+    "desc": "Special title search considerations for distressed, REO, and bank-owned properties that investors should understand.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "indiana-title-search-guide",
+    "href": "indiana-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "December 30, 2025",
+    "title": "Indiana Title Search: Hoosier State Requirements and Process",
+    "desc": "A complete guide to Indiana title searches, including county recorder systems and unique state requirements.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "nationwide-title-search-coverage",
+    "href": "nationwide-title-search-coverage.html",
+    "cat": "Industry",
+    "date": "December 19, 2025",
+    "title": "Nationwide Title Search Coverage: What to Look for in a Provider",
+    "desc": "Key considerations when selecting a title search provider with nationwide coverage, including state-specific expertise.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "choosing-right-title-search-type",
+    "href": "choosing-right-title-search-type.html",
+    "cat": "Education",
+    "date": "December 08, 2025",
+    "title": "How to Choose the Right Title Search Type for Your Transaction",
+    "desc": "A decision guide to help you select the right type of title search based on your transaction type, timeline, and budget.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "south-carolina-title-search-guide",
+    "href": "south-carolina-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "November 26, 2025",
+    "title": "South Carolina Title Search: Palmetto State Process",
+    "desc": "A guide to title searches in South Carolina, including attorney-closing requirements and county recording practices.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-staffing-challenges",
+    "href": "title-search-staffing-challenges.html",
+    "cat": "Industry",
+    "date": "November 14, 2025",
+    "title": "Staffing Challenges in the Title Search Industry and How Outsourcing Helps",
+    "desc": "Addressing the talent shortage in title searching and how strategic outsourcing partnerships solve staffing challenges.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "title-search-for-real-estate-agents",
+    "href": "title-search-for-real-estate-agents.html",
+    "cat": "Education",
+    "date": "November 03, 2025",
+    "title": "Title Searches for Real Estate Agents: What You Should Know",
+    "desc": "A guide for real estate agents to understand title searches, common issues, and how to help clients navigate the process.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "refinance-boom-title-search",
+    "href": "refinance-boom-title-search.html",
+    "cat": "Real Estate",
+    "date": "October 22, 2025",
+    "title": "How Interest Rate Changes Impact Title Search Volume",
+    "desc": "The relationship between interest rate movements and title search demand, with strategies for managing volume swings.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "title-search-report-delivery",
+    "href": "title-search-report-delivery.html",
+    "cat": "Tips",
+    "date": "October 10, 2025",
+    "title": "Title Search Report Delivery: Formats, Standards, and Best Practices",
+    "desc": "Overview of title search report delivery formats, industry standards, and how to choose the best format for your workflow.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "maryland-title-search-guide",
+    "href": "maryland-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "September 29, 2025",
+    "title": "Maryland Title Search: Old Line State Guide",
+    "desc": "Navigate Maryland's title search process, including ground rent considerations and unique state requirements.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-customer-experience",
+    "href": "title-search-customer-experience.html",
+    "cat": "Industry",
+    "date": "September 17, 2025",
+    "title": "Improving the Title Search Customer Experience in 2026",
+    "desc": "How title search companies are enhancing the customer experience through technology, communication, and service design.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "hoa-lien-search-guide",
+    "href": "hoa-lien-search-guide.html",
+    "cat": "Lien",
+    "date": "September 08, 2025",
+    "title": "HOA Lien Searches: What Homeowner Association Liens Mean for Titles",
+    "desc": "Understanding HOA liens, super-priority lien status, and how to search for homeowner association assessments.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "title-search-for-new-construction",
+    "href": "title-search-for-new-construction.html",
+    "cat": "Title Search",
+    "date": "August 25, 2025",
+    "title": "Title Searches for New Construction: Builder and Lender Requirements",
+    "desc": "Special title search requirements for new construction properties, from lot searches to construction lien waivers.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "michigan-title-search-guide",
+    "href": "michigan-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "August 14, 2025",
+    "title": "Michigan Title Search: Great Lakes State Guide",
+    "desc": "A thorough guide to Michigan title searches, including the Register of Deeds process and state-specific considerations.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "abstracting-vs-title-search",
+    "href": "abstracting-vs-title-search.html",
+    "cat": "Education",
+    "date": "August 04, 2025",
+    "title": "Abstracting vs. Title Searching: Industry Terms Explained",
+    "desc": "Clarify the difference between abstracting and title searching, two often-confused terms in the title industry.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "title-search-for-property-managers",
+    "href": "title-search-for-property-managers.html",
+    "cat": "Industry",
+    "date": "July 22, 2025",
+    "title": "Title Searches for Property Management Companies",
+    "desc": "How property management companies use title searches for lease verification, ownership confirmation, and portfolio due diligence.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "wire-fraud-real-estate-closings",
+    "href": "wire-fraud-real-estate-closings.html",
+    "cat": "Legal",
+    "date": "July 10, 2025",
+    "title": "Wire Fraud in Real Estate: How Title Professionals Can Help Prevent It",
+    "desc": "The growing threat of wire fraud in real estate closings and how title professionals play a key role in prevention.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-automation-benefits",
+    "href": "title-search-automation-benefits.html",
+    "cat": "Technology",
+    "date": "June 30, 2025",
+    "title": "5 Ways Automation Improves Title Search Accuracy and Speed",
+    "desc": "How automation technologies are reducing errors, speeding up turnaround, and improving the title search experience.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "north-carolina-title-search-guide",
+    "href": "north-carolina-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "June 17, 2025",
+    "title": "North Carolina Title Search: Tar Heel State Guide",
+    "desc": "Everything you need to know about title searches in North Carolina, including the Register of Deeds system and Torrens titles.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-for-1031-exchange",
+    "href": "title-search-for-1031-exchange.html",
+    "cat": "Title Search",
+    "date": "June 05, 2025",
+    "title": "Title Searches in 1031 Exchange Transactions",
+    "desc": "Special title search considerations for 1031 tax-deferred exchange properties, including timing and vesting requirements.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "lis-pendens-explained",
+    "href": "lis-pendens-explained.html",
+    "cat": "Legal",
+    "date": "May 26, 2025",
+    "title": "Lis Pendens: How Pending Lawsuits Affect Property Titles",
+    "desc": "Understanding lis pendens notices, how they show up in title searches, and their impact on property transactions.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "title-search-outsourcing-roi",
+    "href": "title-search-outsourcing-roi.html",
+    "cat": "Industry",
+    "date": "May 13, 2025",
+    "title": "The ROI of Outsourcing Title Searches: A Cost Analysis",
+    "desc": "Calculate the true cost savings and ROI of outsourcing title searches versus maintaining an in-house search team.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "mineral-rights-title-search",
+    "href": "mineral-rights-title-search.html",
+    "cat": "Legal",
+    "date": "May 02, 2025",
+    "title": "Mineral Rights and Title Searches: What's Below the Surface",
+    "desc": "How mineral rights affect property titles and what to look for in title searches involving subsurface rights.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "virginia-title-search-guide",
+    "href": "virginia-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "April 21, 2025",
+    "title": "Virginia Title Search: Commonwealth Requirements and Practices",
+    "desc": "Navigate Virginia's title search process, including independent city recording systems and unique state requirements.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-commitment-vs-title-report",
+    "href": "title-commitment-vs-title-report.html",
+    "cat": "Education",
+    "date": "April 09, 2025",
+    "title": "Title Commitment vs. Title Report: Key Differences Explained",
+    "desc": "Learn the differences between a title commitment and a title report, and understand when each is used.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "affidavit-of-title-explained",
+    "href": "affidavit-of-title-explained.html",
+    "cat": "Legal",
+    "date": "March 28, 2025",
+    "title": "Affidavit of Title: What It Is and When You Need One",
+    "desc": "Understanding affidavits of title, their role in closings, and how they supplement the title search process.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "title-search-data-security",
+    "href": "title-search-data-security.html",
+    "cat": "Technology",
+    "date": "March 17, 2025",
+    "title": "Data Security in Title Searches: Protecting Sensitive Information",
+    "desc": "Best practices for data security in the title search process, from NPI protection to secure delivery methods.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "how-to-order-title-search-online",
+    "href": "how-to-order-title-search-online.html",
+    "cat": "Education",
+    "date": "March 05, 2025",
+    "title": "How to Order a Title Search Online: Step-by-Step Guide",
+    "desc": "A simple guide to ordering title searches online, from selecting the right service to receiving your report.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "title-search-for-commercial-lending",
+    "href": "title-search-for-commercial-lending.html",
+    "cat": "Industry",
+    "date": "February 21, 2025",
+    "title": "Title Search Requirements for Commercial Lending Transactions",
+    "desc": "Specialized title search requirements for commercial real estate lending, including ALTA surveys and endorsements.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "environmental-liens-title-search",
+    "href": "environmental-liens-title-search.html",
+    "cat": "Lien",
+    "date": "February 10, 2025",
+    "title": "Environmental Liens and Title Searches: What You Need to Know",
+    "desc": "How environmental liens and contamination issues show up in title searches and their impact on property transactions.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-industry-outlook-2026",
+    "href": "title-search-industry-outlook-2026.html",
+    "cat": "Industry",
+    "date": "January 29, 2025",
+    "title": "Title Search Industry Outlook: What to Expect in 2026",
+    "desc": "Key trends and predictions shaping the title search industry in 2026, from technology adoption to market conditions.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "illinois-title-search-guide",
+    "href": "illinois-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "January 20, 2025",
+    "title": "Illinois Title Search: Prairie State Guide for 2026",
+    "desc": "A complete guide to Illinois title searches, including Cook County specifics, Torrens system properties, and state requirements.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "closing-delays-title-issues",
+    "href": "closing-delays-title-issues.html",
+    "cat": "Tips",
+    "date": "January 06, 2025",
+    "title": "How Title Issues Cause Closing Delays and How to Prevent Them",
+    "desc": "Common title-related causes of closing delays and proactive steps to prevent them in your transactions.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "year-end-title-search-trends",
+    "href": "year-end-title-search-trends.html",
+    "cat": "Industry",
+    "date": "December 26, 2024",
+    "title": "Title Search Industry Trends: Year-End 2025 Review",
+    "desc": "A review of the major trends that shaped the title search industry in 2025 and what to expect heading into 2026.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-for-vacant-land",
+    "href": "title-search-for-vacant-land.html",
+    "cat": "Title Search",
+    "date": "December 16, 2024",
+    "title": "Title Searches for Vacant Land: What's Different?",
+    "desc": "Unique considerations when searching title for vacant land, including mineral rights, easements, and zoning issues.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "forgery-and-fraud-in-title",
+    "href": "forgery-and-fraud-in-title.html",
+    "cat": "Legal",
+    "date": "December 03, 2024",
+    "title": "Title Fraud and Forgery: How Title Searches Detect Deception",
+    "desc": "How thorough title searches help detect deed forgery, identity theft, and fraudulent conveyances.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-integration-apis",
+    "href": "title-search-integration-apis.html",
+    "cat": "Technology",
+    "date": "November 21, 2024",
+    "title": "Title Search API Integration: Connecting Systems for Speed",
+    "desc": "How API integrations between title search providers and closing platforms create faster, more efficient workflows.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "new-jersey-title-search-guide",
+    "href": "new-jersey-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "November 11, 2024",
+    "title": "New Jersey Title Search: Garden State Requirements",
+    "desc": "Navigate New Jersey's title search process, including the unique role of attorneys and the IREM recording system.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "deed-types-explained",
+    "href": "deed-types-explained.html",
+    "cat": "Education",
+    "date": "October 29, 2024",
+    "title": "Types of Deeds Explained: Warranty, Quitclaim, and More",
+    "desc": "A comprehensive guide to different types of property deeds and what each means for title security and ownership rights.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "title-search-batch-processing",
+    "href": "title-search-batch-processing.html",
+    "cat": "Tips",
+    "date": "October 17, 2024",
+    "title": "Batch Processing Title Searches: How to Scale Efficiently",
+    "desc": "Best practices for processing large volumes of title searches efficiently while maintaining quality standards.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "heir-property-title-issues",
+    "href": "heir-property-title-issues.html",
+    "cat": "Legal",
+    "date": "October 07, 2024",
+    "title": "Heir Property: Title Search Challenges and Solutions",
+    "desc": "Understanding the unique title search challenges posed by heir property and strategies for resolving clouded titles.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "cloud-based-title-search-platforms",
+    "href": "cloud-based-title-search-platforms.html",
+    "cat": "Technology",
+    "date": "September 24, 2024",
+    "title": "Cloud-Based Title Search Platforms: The Future of Order Management",
+    "desc": "How cloud-based platforms are replacing manual processes for ordering, tracking, and delivering title search reports.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "title-search-red-flags",
+    "href": "title-search-red-flags.html",
+    "cat": "Tips",
+    "date": "September 13, 2024",
+    "title": "Title Search Red Flags: 12 Warning Signs to Watch For",
+    "desc": "Identify the most critical red flags in title search reports that could indicate serious problems with a property.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "georgia-title-search-guide",
+    "href": "georgia-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "September 02, 2024",
+    "title": "Georgia Title Search: Peach State Process and Requirements",
+    "desc": "A comprehensive guide to Georgia title searches, including unique deed requirements and county recording practices.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "remote-title-search-best-practices",
+    "href": "remote-title-search-best-practices.html",
+    "cat": "Technology",
+    "date": "August 21, 2024",
+    "title": "Remote Title Search Operations: Best Practices for 2025",
+    "desc": "How title search companies are operating remotely and the technology enabling accurate searches from anywhere.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "short-sale-title-search",
+    "href": "short-sale-title-search.html",
+    "cat": "Foreclosure",
+    "date": "August 09, 2024",
+    "title": "Short Sale Title Searches: Special Considerations",
+    "desc": "What makes short sale title searches unique and what additional issues to look for compared to standard transactions.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "title-search-for-refinancing",
+    "href": "title-search-for-refinancing.html",
+    "cat": "Title Search",
+    "date": "July 29, 2024",
+    "title": "Title Searches for Refinancing: What Lenders Require",
+    "desc": "Understanding the title search requirements for mortgage refinancing and how they differ from purchase transactions.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "municipal-lien-search-guide",
+    "href": "municipal-lien-search-guide.html",
+    "cat": "Lien",
+    "date": "July 17, 2024",
+    "title": "Municipal Lien Searches: Beyond Property Taxes",
+    "desc": "Why municipal lien searches are essential and what they uncover, from code violations to unpaid utility bills.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "ohio-title-search-guide",
+    "href": "ohio-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "July 05, 2024",
+    "title": "Ohio Title Search: Buckeye State Requirements and Procedures",
+    "desc": "Everything you need to know about conducting title searches in Ohio, including county recorder systems and common practices.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-insurance-vs-title-search",
+    "href": "title-insurance-vs-title-search.html",
+    "cat": "Education",
+    "date": "June 24, 2024",
+    "title": "Title Insurance vs. Title Search: Understanding the Difference",
+    "desc": "Many confuse title insurance with title searches. Learn what each one does and how they work together to protect buyers.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "property-survey-vs-title-search",
+    "href": "property-survey-vs-title-search.html",
+    "cat": "Education",
+    "date": "June 12, 2024",
+    "title": "Property Survey vs. Title Search: Do You Need Both?",
+    "desc": "Understanding the difference between property surveys and title searches, and when you need one or both.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "title-search-compliance-2025",
+    "href": "title-search-compliance-2025.html",
+    "cat": "Industry",
+    "date": "June 03, 2024",
+    "title": "Title Search Compliance Requirements for 2025",
+    "desc": "Stay updated on the latest compliance requirements affecting title searches, from data security to consumer protection.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "probate-title-issues",
+    "href": "probate-title-issues.html",
+    "cat": "Legal",
+    "date": "May 20, 2024",
+    "title": "Probate and Title Searches: Handling Estate Properties",
+    "desc": "How probate affects property titles and what additional searches may be needed for estate and inherited properties.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-for-investors",
+    "href": "title-search-for-investors.html",
+    "cat": "Tips",
+    "date": "May 09, 2024",
+    "title": "Title Searches for Real Estate Investors: Essential Due Diligence",
+    "desc": "How real estate investors should approach title searches to protect their investments and avoid costly title issues.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "massachusetts-title-search-guide",
+    "href": "massachusetts-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "April 29, 2024",
+    "title": "Massachusetts Title Search: Navigating Land Court and Registry Systems",
+    "desc": "A guide to Massachusetts title searches covering both the Registry of Deeds and Land Court registered land systems.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "ai-in-title-search",
+    "href": "ai-in-title-search.html",
+    "cat": "Technology",
+    "date": "April 16, 2024",
+    "title": "How AI Is Changing the Title Search Industry",
+    "desc": "The role of artificial intelligence in modernizing title searches, from automated record extraction to quality verification.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-quality-checklist",
+    "href": "title-search-quality-checklist.html",
+    "cat": "Tips",
+    "date": "April 04, 2024",
+    "title": "Quality Assurance in Title Searches: What to Look For",
+    "desc": "Key quality indicators to evaluate in a title search report and red flags that signal potential issues.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "ucc-filing-search-guide",
+    "href": "ucc-filing-search-guide.html",
+    "cat": "Lien",
+    "date": "March 25, 2024",
+    "title": "UCC Filing Searches: Finding Personal Property Liens",
+    "desc": "How Uniform Commercial Code filing searches work and why they're important in title searches for commercial transactions.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "bulk-title-search-ordering",
+    "href": "bulk-title-search-ordering.html",
+    "cat": "Tips",
+    "date": "March 12, 2024",
+    "title": "Bulk Title Search Ordering: How to Maximize Volume Discounts",
+    "desc": "Strategies for optimizing bulk title search orders to get the best pricing, fastest turnaround, and most efficient workflows.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "pennsylvania-title-search-guide",
+    "href": "pennsylvania-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "February 29, 2024",
+    "title": "Pennsylvania Title Search: State Requirements and Best Practices",
+    "desc": "Navigate Pennsylvania's title search landscape, including unique recording requirements and county-specific processes.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "quiet-title-action-explained",
+    "href": "quiet-title-action-explained.html",
+    "cat": "Legal",
+    "date": "February 19, 2024",
+    "title": "Quiet Title Actions: When They're Needed and How They Work",
+    "desc": "Understanding quiet title actions, the legal process to clear title defects, and when they become necessary.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "eto-model-title-search",
+    "href": "eto-model-title-search.html",
+    "cat": "Industry",
+    "date": "February 06, 2024",
+    "title": "The ETO Model: Experience, Try, Order \u2014 A Better Way to Choose a Title Search Partner",
+    "desc": "How the ETO (Experience, Try, Order) model lets you evaluate title search quality before committing to volume.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "title-examination-vs-title-search",
+    "href": "title-examination-vs-title-search.html",
+    "cat": "Education",
+    "date": "January 26, 2024",
+    "title": "Title Examination vs. Title Search: What's the Difference?",
+    "desc": "Understand the key differences between a title search and a title examination, and when each is required.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "real-estate-market-title-search-impact",
+    "href": "real-estate-market-title-search-impact.html",
+    "cat": "Real Estate",
+    "date": "January 15, 2024",
+    "title": "How Market Conditions Affect Title Search Demand",
+    "desc": "The relationship between real estate market cycles and title search volume, with strategies for managing demand fluctuations.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "title-update-search-when-needed",
+    "href": "title-update-search-when-needed.html",
+    "cat": "Title Search",
+    "date": "January 03, 2024",
+    "title": "Title Update Searches: When and Why You Need a Refresh",
+    "desc": "Learn when an update search is needed, how it differs from a new search, and why timely updates protect your closing.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "texas-title-search-guide",
+    "href": "texas-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "December 22, 2023",
+    "title": "Texas Title Search: Everything You Need to Know",
+    "desc": "A comprehensive guide to title searches in Texas, including community property rules, homestead exemptions, and recording systems.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "title-search-vendor-evaluation",
+    "href": "title-search-vendor-evaluation.html",
+    "cat": "Tips",
+    "date": "December 11, 2023",
+    "title": "How to Evaluate and Choose a Title Search Vendor",
+    "desc": "A framework for evaluating title search providers based on quality, pricing, turnaround, coverage, and customer support.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "judgment-lien-search-guide",
+    "href": "judgment-lien-search-guide.html",
+    "cat": "Lien",
+    "date": "November 29, 2023",
+    "title": "Judgment Lien Searches: Finding Hidden Liabilities",
+    "desc": "How judgment liens affect property titles and why thorough judgment searches are essential before any real estate transaction.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "qualia-integration-title-search",
+    "href": "qualia-integration-title-search.html",
+    "cat": "Technology",
+    "date": "November 17, 2023",
+    "title": "How Qualia Integration Streamlines Title Search Workflows",
+    "desc": "Exploring how Qualia's title and closing platform integrates with title search providers for seamless order management.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "title-search-mistakes-to-avoid",
+    "href": "title-search-mistakes-to-avoid.html",
+    "cat": "Tips",
+    "date": "November 06, 2023",
+    "title": "7 Title Search Mistakes That Can Derail Your Closing",
+    "desc": "Common title search mistakes made by real estate professionals and how to avoid them for smoother transactions.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "document-retrieval-services",
+    "href": "document-retrieval-services.html",
+    "cat": "Title Search",
+    "date": "October 25, 2023",
+    "title": "Document Retrieval Services: Getting County Records Fast",
+    "desc": "How document retrieval services work, what types of documents can be retrieved, and how to speed up the process.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "new-york-title-search-guide",
+    "href": "new-york-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "October 16, 2023",
+    "title": "New York Title Search: A Guide to the Empire State's Process",
+    "desc": "Navigate New York's unique title search requirements, including attorney-state rules, recording practices, and ACRIS.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "easements-and-restrictions",
+    "href": "easements-and-restrictions.html",
+    "cat": "Legal",
+    "date": "October 02, 2023",
+    "title": "Understanding Easements and Restrictions in Title Searches",
+    "desc": "A detailed look at how easements, covenants, and restrictions appear in title searches and what they mean for property owners.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "title-search-for-lenders",
+    "href": "title-search-for-lenders.html",
+    "cat": "Industry",
+    "date": "September 21, 2023",
+    "title": "Title Search Requirements for Banks and Mortgage Lenders",
+    "desc": "How lending institutions use title searches in their underwriting process and what compliance requirements apply.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "mechanics-lien-explained",
+    "href": "mechanics-lien-explained.html",
+    "cat": "Lien",
+    "date": "September 11, 2023",
+    "title": "Mechanic's Liens: What Every Title Searcher Should Know",
+    "desc": "Understanding mechanic's liens, how they attach to property, and their impact on title searches and closings.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "condo-title-search-guide",
+    "href": "condo-title-search-guide.html",
+    "cat": "Title Search",
+    "date": "August 29, 2023",
+    "title": "Condo Title Searches: Special Considerations for HOA Properties",
+    "desc": "Learn what makes condo title searches unique, from HOA lien searches to master deed reviews and estoppel certificates.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "florida-title-search-guide",
+    "href": "florida-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "August 17, 2023",
+    "title": "Florida Title Search: Navigating the Sunshine State's Requirements",
+    "desc": "A complete guide to title searches in Florida, covering unique state requirements, recording systems, and common issues.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "eo-insurance-title-search",
+    "href": "eo-insurance-title-search.html",
+    "cat": "Industry",
+    "date": "August 07, 2023",
+    "title": "Why E&O Insurance Matters When Choosing a Title Search Provider",
+    "desc": "Understanding errors and omissions insurance coverage and why it's a critical factor in selecting a title search partner.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "title-search-due-diligence-checklist",
+    "href": "title-search-due-diligence-checklist.html",
+    "cat": "Tips",
+    "date": "July 25, 2023",
+    "title": "The Ultimate Title Search Due Diligence Checklist",
+    "desc": "A comprehensive checklist covering every step of the title search due diligence process for real estate professionals.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "tax-lien-search-guide",
+    "href": "tax-lien-search-guide.html",
+    "cat": "Lien",
+    "date": "July 13, 2023",
+    "title": "Tax Lien Searches: Protecting Your Investment",
+    "desc": "A detailed guide to tax lien searches, including federal, state, and municipal tax liens that can affect property titles.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "digital-transformation-title-industry",
+    "href": "digital-transformation-title-industry.html",
+    "cat": "Technology",
+    "date": "July 03, 2023",
+    "title": "Digital Transformation in the Title Search Industry",
+    "desc": "How technology is reshaping the title search process, from automated searches to digital delivery and cloud platforms.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "two-owner-search-when-to-use",
+    "href": "two-owner-search-when-to-use.html",
+    "cat": "Title Search",
+    "date": "June 20, 2023",
+    "title": "Two Owner Search: When and Why You Need One",
+    "desc": "Learn when a two-owner search is the right choice and how it differs from a standard current owner search.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "alta-best-practices",
+    "href": "alta-best-practices.html",
+    "cat": "Industry",
+    "date": "June 09, 2023",
+    "title": "ALTA Best Practices: What They Mean for Title Search Quality",
+    "desc": "How ALTA Best Practices certification ensures quality, security, and compliance in the title search process.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "connecticut-title-search-guide",
+    "href": "connecticut-title-search-guide.html",
+    "cat": "State Guide",
+    "date": "May 29, 2023",
+    "title": "Connecticut Title Search: State-Specific Requirements and Process",
+    "desc": "Everything you need to know about conducting title searches in Connecticut, including recording practices and county resources.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-pricing-guide",
+    "href": "title-search-pricing-guide.html",
+    "cat": "Industry",
+    "date": "May 17, 2023",
+    "title": "Title Search Pricing: How Much Should You Pay in 2023?",
+    "desc": "A transparent look at title search pricing across the industry, with tips for evaluating cost vs. quality.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "chain-of-title-explained",
+    "href": "chain-of-title-explained.html",
+    "cat": "Education",
+    "date": "May 05, 2023",
+    "title": "Chain of Title Explained: Why Property History Matters",
+    "desc": "Learn what chain of title means, how it's established, and why gaps in the chain can create serious legal issues.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "title-search-turnaround-times",
+    "href": "title-search-turnaround-times.html",
+    "cat": "Industry",
+    "date": "April 24, 2023",
+    "title": "Title Search Turnaround Times: What to Expect in 2023",
+    "desc": "An industry overview of typical title search turnaround times and how to get faster results without sacrificing quality.",
+    "read": "5 min read"
+  },
+  {
+    "slug": "foreclosure-title-search-guide",
+    "href": "foreclosure-title-search-guide.html",
+    "cat": "Foreclosure",
+    "date": "April 12, 2023",
+    "title": "Foreclosure Title Searches: What Investors Need to Know",
+    "desc": "A comprehensive guide to foreclosure title searches, covering what they include and common issues found in foreclosed properties.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "title-search-for-law-firms",
+    "href": "title-search-for-law-firms.html",
+    "cat": "Industry",
+    "date": "March 31, 2023",
+    "title": "Title Search Solutions for Law Firms: Streamline Your Practice",
+    "desc": "How law firms can leverage outsourced title search services to handle real estate closings more efficiently.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "lien-search-importance",
+    "href": "lien-search-importance.html",
+    "cat": "Lien",
+    "date": "March 20, 2023",
+    "title": "Why Lien Searches Are Critical Before Closing",
+    "desc": "Understand the different types of liens that can affect property titles and why a thorough lien search is essential.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "common-title-defects",
+    "href": "common-title-defects.html",
+    "cat": "Legal",
+    "date": "March 08, 2023",
+    "title": "10 Most Common Title Defects and How to Resolve Them",
+    "desc": "Explore the most frequently encountered title defects in real estate and practical solutions for resolving each one.",
+    "read": "8 min read"
+  },
+  {
+    "slug": "how-to-read-a-title-report",
+    "href": "how-to-read-a-title-report.html",
+    "cat": "Education",
+    "date": "February 27, 2023",
+    "title": "How to Read a Title Search Report: A Step-by-Step Guide",
+    "desc": "Learn how to interpret each section of a title search report, from the vesting deed to liens and encumbrances.",
+    "read": "9 min read"
+  },
+  {
+    "slug": "full-title-search-vs-current-owner",
+    "href": "full-title-search-vs-current-owner.html",
+    "cat": "Title Search",
+    "date": "February 13, 2023",
+    "title": "Full Title Search vs. Current Owner Search: Which Do You Need?",
+    "desc": "Compare full title searches and current owner searches side by side. Learn which type fits your transaction.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "why-title-insurance-companies-outsource",
+    "href": "why-title-insurance-companies-outsource.html",
+    "cat": "Industry",
+    "date": "February 02, 2023",
+    "title": "Why Title Insurance Companies Outsource Title Searches",
+    "desc": "Discover the key reasons title insurance companies outsource search work and how it improves efficiency and reduces costs.",
+    "read": "7 min read"
+  },
+  {
+    "slug": "current-owner-search-explained",
+    "href": "current-owner-search-explained.html",
+    "cat": "Title Search",
+    "date": "January 23, 2023",
+    "title": "Current Owner Search: What It Covers and When You Need One",
+    "desc": "Understand what a current owner search includes, typical turnaround times, and why it's the most common type of title search.",
+    "read": "6 min read"
+  },
+  {
+    "slug": "what-is-a-title-search",
+    "href": "what-is-a-title-search.html",
+    "cat": "Education",
+    "date": "January 10, 2023",
+    "title": "What Is a Title Search? The Complete Guide for 2023",
+    "desc": "Learn what a title search is, why it matters in real estate transactions, and how the process works from start to finish.",
+    "read": "8 min read"
+  }
+]
