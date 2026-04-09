@@ -38,6 +38,19 @@ export default function ContactPage() {
         </div>
       </section>
 
+      {/* Hidden form for Netlify build-bot field detection */}
+      <form name="contact" data-netlify="true" hidden>
+        <input name="order_intent" />
+        <input name="full_name" />
+        <input name="company_name" />
+        <input name="email_address" />
+        <input name="phone_number" />
+        <input name="search_type" />
+        <input name="state" />
+        <input name="property_address" />
+        <textarea name="additional_notes" />
+      </form>
+
       {/* Contact Grid */}
       <section className="section">
         <div className="container">

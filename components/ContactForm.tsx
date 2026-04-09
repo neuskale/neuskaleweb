@@ -61,12 +61,26 @@ export default function ContactForm() {
   const next = () => { if (validateStep()) setStep((s) => (s + 1) as Step); };
   const prev = () => { setStep((s) => (s - 1) as Step); setError(''); };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validateStep()) return;
-    // In production, submit to a server action or API route
-    // Here we show a success message
-    setSubmitted(true);
+
+    const encode = (data: Record<string, string>) =>
+      Object.keys(data)
+        .map(k => encodeURIComponent(k) + '=' + encodeURIComponent(data[k]))
+        .join('&');
+
+    try {
+      const res = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encode({ 'form-name': 'contact', ...form }),
+      });
+      if (!res.ok) throw new Error('Network response was not ok');
+      setSubmitted(true);
+    } catch {
+      setError('Submission failed. Please email us directly at info@neuskale.com or try again.');
+    }
   };
 
   const progress = ((step + 1) / 3) * 100;
