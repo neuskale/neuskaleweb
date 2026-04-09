@@ -1,0 +1,55 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# Old .html URL redirects
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/contact"
+  status = 301
+
+[[redirects]]
+  from = "/pricing.html"
+  to = "/pricing"
+  status = 301
+
+[[redirects]]
+  from = "/faq.html"
+  to = "/faq"
+  status = 301
+
+[[redirects]]
+  from = "/title-search.html"
+  to = "/title-search"
+  status = 301
+
+[[redirects]]
+  from = "/blog.html"
+  to = "/blog"
+  status = 301
+
+[[redirects]]
+  from = "/best-title-search-companies.html"
+  to = "/best-title-search-companies"
+  status = 301
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-DNS-Prefetch-Control = "on"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
