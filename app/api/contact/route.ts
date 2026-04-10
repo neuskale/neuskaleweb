@@ -204,23 +204,26 @@ export async function POST(req: NextRequest) {
     const subject = `New ${order_intent} – ${full_name}${company_name ? ` (${company_name})` : ''}`;
     const html = buildEmailHtml({ order_intent, full_name, company_name, email_address, phone_number, search_type, state, property_address, additional_notes });
 
-    const transporter = nodemailer.createTransport({
-      host: 'smtp-relay.brevo.com',
-      port: 587,
-      secure: false,
-      auth: {
-        user: process.env.BREVO_SMTP_USER,
-        pass: process.env.BREVO_SMTP_KEY,
+    const res = await fetch('https://api.brevo.com/v3/smtp/email', {
+      method: 'POST',
+      headers: {
+        'accept': 'application/json',
+        'content-type': 'application/json',
+        'api-key': process.env.BREVO_API_KEY!,
       },
+      body: JSON.stringify({
+        sender: { name: 'Neuskale', email: 'noreply@ventois.com' },
+        to: [{ email: 'rathan@ventois.com', name: 'Rathan' }],
+        replyTo: { email: email_address, name: full_name },
+        subject,
+        htmlContent: html,
+      }),
     });
 
-    await transporter.sendMail({
-      from: `"Neuskale" <${process.env.BREVO_SMTP_USER}>`,
-      to: 'rathan@ventois.com',
-      replyTo: email_address,
-      subject,
-      html,
-    });
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err?.message || 'Brevo API error');
+    }
 
     return NextResponse.json({ success: true });
   } catch (err) {
