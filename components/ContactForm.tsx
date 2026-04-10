@@ -29,6 +29,7 @@ function sanitize(value: string, maxLen = 500): string {
 export default function ContactForm() {
   const [step, setStep] = useState<Step>(0);
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
   const [form, setForm] = useState({
     order_intent: 'Trial Order',
@@ -46,13 +47,25 @@ export default function ContactForm() {
 
   const validateStep = (): boolean => {
     if (step === 0) {
-      if (!form.full_name.trim()) { setError('Full name is required.'); return false; }
-      if (!form.email_address.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email_address)) { setError('A valid email address is required.'); return false; }
+      if (!form.full_name.trim() || form.full_name.trim().length < 2) {
+        setError('Full name must be at least 2 characters.'); return false;
+      }
+      if (!form.email_address.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email_address)) {
+        setError('A valid email address is required.'); return false;
+      }
+      if (!form.phone_number.trim()) {
+        setError('Phone number is required.'); return false;
+      }
+      if (!/^[+]?[(]?[0-9]{3}[)]?[-\s.]?[0-9]{3}[-\s.]?[0-9]{4,6}$/.test(form.phone_number.trim())) {
+        setError('Phone number format is invalid (e.g. (555) 123-4567).'); return false;
+      }
     }
     if (step === 1) {
       if (!form.search_type) { setError('Please select a search type.'); return false; }
       if (!form.state) { setError('Please select a state.'); return false; }
-      if (!form.property_address.trim()) { setError('Property address is required.'); return false; }
+      if (!form.property_address.trim() || form.property_address.trim().length < 5) {
+        setError('Please enter a complete property address.'); return false;
+      }
     }
     setError('');
     return true;
@@ -65,21 +78,23 @@ export default function ContactForm() {
     e.preventDefault();
     if (!validateStep()) return;
 
-    const encode = (data: Record<string, string>) =>
-      Object.keys(data)
-        .map(k => encodeURIComponent(k) + '=' + encodeURIComponent(data[k]))
-        .join('&');
+    setSubmitting(true);
+    setError('');
 
     try {
-      const res = await fetch('/', {
+      const res = await fetch('/api/contact', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode({ 'form-name': 'contact', ...form }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
       });
-      if (!res.ok) throw new Error('Network response was not ok');
+      const data = await res.json();
+      if (!res.ok) throw new Error(data?.error || 'Submission failed');
       setSubmitted(true);
-    } catch {
-      setError('Submission failed. Please email us directly at info@neuskale.com or try again.');
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : 'Submission failed';
+      setError(`${message}. Please email us directly at rathan@ventois.com or try again.`);
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -132,7 +147,7 @@ export default function ContactForm() {
         </div>
       )}
 
-      <form onSubmit={handleSubmit} noValidate data-netlify="true" name="contact">
+      <form onSubmit={handleSubmit} noValidate>
         {/* Step 0: Contact */}
         {step === 0 && (
           <div className="wizard-panel">
@@ -165,7 +180,7 @@ export default function ContactForm() {
                 <input type="email" id="emailAddress" className="form-input" placeholder="john@company.com" value={form.email_address} onChange={e => set('email_address', sanitize(e.target.value, 200))} autoComplete="email" />
               </div>
               <div className="form-group">
-                <label htmlFor="phoneNumber" className="form-label">Phone Number</label>
+                <label htmlFor="phoneNumber" className="form-label">Phone Number *</label>
                 <input type="tel" id="phoneNumber" className="form-input" placeholder="(555) 123-4567" value={form.phone_number} onChange={e => set('phone_number', sanitize(e.target.value.replace(/[^0-9()\-+\s]/g, ''), 20))} autoComplete="tel" />
               </div>
             </div>
@@ -244,7 +259,11 @@ export default function ContactForm() {
           {step > 0 && <button type="button" className="btn btn-secondary" onClick={prev}>Back</button>}
           <span className="wizard-step-caption">Step {step + 1} of 3</span>
           {step < 2 && <button type="button" className="btn btn-primary" onClick={next}>Continue &rarr;</button>}
-          {step === 2 && <button type="submit" className="btn btn-primary">Submit Order / Start Trial &rarr;</button>}
+          {step === 2 && (
+            <button type="submit" className="btn btn-primary" disabled={submitting}>
+              {submitting ? 'Sending…' : 'Submit Order / Start Trial →'}
+            </button>
+          )}
         </div>
         <p className="pricing-note" style={{ marginTop: 12 }}>* Prices shown are starting prices and may vary by state, county, and parcel complexity. Additional abstractor fees may apply if ground searches or offline document retrieval are required. All fees will be communicated and approved before proceeding.</p>
       </form>

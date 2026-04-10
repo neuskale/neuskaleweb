@@ -306,6 +306,7 @@ p { margin-bottom: 0.75rem; color: var(--text-muted); line-height: 1.65; }
 .nav a.active::after { width: 60%; left: 20%; }
 
 .nav-cta { margin-left: 16px; }
+.nav-mobile-cta { display: none; }
 
 .mobile-toggle {
   display: none;
@@ -2527,9 +2528,7 @@ p { margin-bottom: 0.75rem; color: var(--text-muted); line-height: 1.65; }
   /* About page inline grids */
   .about-two-col { grid-template-columns: 1fr !important; }
   .about-eto-grid { grid-template-columns: 1fr !important; }
-}
-
-@media (max-width: 768px) {
+  /* Nav collapses to hamburger on tablet & below */
   .nav { display: none; }
   .nav-cta { display: none; }
   .mobile-toggle { display: block; }
@@ -2543,12 +2542,24 @@ p { margin-bottom: 0.75rem; color: var(--text-muted); line-height: 1.65; }
     background: rgba(255,255,255,0.98);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    padding: 16px;
+    padding: 16px 16px 20px;
     box-shadow: var(--shadow-lg);
     border-top: 1px solid var(--border);
     animation: slideDown 0.3s ease;
   }
   .nav.open a { padding: 14px 20px; font-size: 1rem; }
+  .nav.open .nav-mobile-cta {
+    display: block;
+    margin: 10px 20px 0;
+    text-align: center;
+    padding: 13px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 768px) {
   .hero-stats { flex-direction: column; align-items: center; gap: 16px; }
   .steps { grid-template-columns: 1fr; }
   .steps::before { display: none; }
@@ -2610,6 +2621,7 @@ p { margin-bottom: 0.75rem; color: var(--text-muted); line-height: 1.65; }
   .btn { padding: 12px 24px; font-size: 0.95rem; }
   .btn-lg { padding: 14px 32px; font-size: 1rem; }
   .hero-stat .number { font-size: 2rem; }
+  .logo img { height: 30px; }
 }
 
 @keyframes slideDown {
@@ -3137,7 +3149,7 @@ a {
   box-shadow: 0 18px 36px rgba(39, 21, 67, 0.08);
 }
 
-.logo img { height: 44px; }
+.logo img { height: 40px; max-height: 40px; width: auto; }
 
 .nav { gap: 6px; }
 
@@ -3666,13 +3678,15 @@ textarea:focus-visible {
   outline: 2px solid var(--violet);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .nav.open {
     background: rgba(255, 252, 246, 0.94);
     border-top: 1px solid rgba(39, 21, 67, 0.06);
     box-shadow: var(--shadow-xl);
   }
+}
 
+@media (max-width: 768px) {
   .hero-content h1 { max-width: none; }
 
   .hero-stat {

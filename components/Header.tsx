@@ -52,6 +52,9 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
+          <Link href="/contact" className="btn btn-primary nav-mobile-cta">
+            Order Now →
+          </Link>
         </nav>
         <Link href="/contact" className="btn btn-primary btn-sm nav-cta">
           Order Now
