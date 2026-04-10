@@ -212,8 +212,8 @@ export async function POST(req: NextRequest) {
         'api-key': process.env.BREVO_API_KEY!,
       },
       body: JSON.stringify({
-        sender: { name: 'Neuskale', email: 'noreply@ventois.com' },
-        to: [{ email: 'rathan@ventois.com', name: 'Rathan' }],
+        sender: { name: 'Neuskale', email: process.env.BREVO_SENDER_EMAIL! },
+        to: [{ email: 'info@neuskale.com', name: 'Neuskale' }],
         replyTo: { email: email_address, name: full_name },
         subject,
         htmlContent: html,
@@ -227,7 +227,8 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error('Contact form email error:', err);
-    return NextResponse.json({ error: 'Failed to send email.' }, { status: 500 });
+    const message = err instanceof Error ? err.message : String(err);
+    console.error('Contact form email error:', message);
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

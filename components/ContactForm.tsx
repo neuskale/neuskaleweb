@@ -81,18 +81,21 @@ export default function ContactForm() {
     setSubmitting(true);
     setError('');
 
+    const encode = (data: Record<string, string>) =>
+      Object.keys(data)
+        .map(k => encodeURIComponent(k) + '=' + encodeURIComponent(data[k]))
+        .join('&');
+
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch('/', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encode({ 'form-name': 'contact', 'bot-field': '', ...form }),
       });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data?.error || 'Submission failed');
+      if (!res.ok) throw new Error('Submission failed');
       setSubmitted(true);
-    } catch (err: unknown) {
-      const message = err instanceof Error ? err.message : 'Submission failed';
-      setError(`${message}. Please email us directly at rathan@ventois.com or try again.`);
+    } catch {
+      setError('Submission failed. Please email us directly at info@neuskale.com or try again.');
     } finally {
       setSubmitting(false);
     }
@@ -147,7 +150,9 @@ export default function ContactForm() {
         </div>
       )}
 
-      <form onSubmit={handleSubmit} noValidate>
+      <form onSubmit={handleSubmit} noValidate data-netlify="true" name="contact" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="bot-field" />
         {/* Step 0: Contact */}
         {step === 0 && (
           <div className="wizard-panel">
