@@ -1925,6 +1925,7 @@ p { margin-bottom: 0.75rem; color: var(--text-muted); line-height: 1.65; }
 .wizard-summary-item {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 16px;
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(39, 21, 67, 0.08);
@@ -1938,12 +1939,16 @@ p { margin-bottom: 0.75rem; color: var(--text-muted); line-height: 1.65; }
 .wizard-summary-item span {
   color: var(--text-muted);
   font-size: 0.85rem;
+  flex-shrink: 0;
 }
 
 .wizard-summary-item strong {
   color: var(--text-dark);
   font-size: 0.92rem;
   text-align: right;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .wizard-confirm {

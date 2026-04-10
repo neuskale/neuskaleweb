@@ -23,7 +23,12 @@ const usStates = [
 
 // Sanitize: strip HTML tags and limit length to prevent injection
 function sanitize(value: string, maxLen = 500): string {
-  return value.replace(/<[^>]*>/g, '').trim().slice(0, maxLen);
+  return value.replace(/<[^>]*>/g, '').slice(0, maxLen);
+}
+
+// For multiline fields — same as sanitize but preserves internal whitespace
+function sanitizeMultiline(value: string, maxLen = 1000): string {
+  return value.replace(/<[^>]*>/g, '').slice(0, maxLen);
 }
 
 export default function ContactForm() {
@@ -217,7 +222,7 @@ export default function ContactForm() {
             </div>
             <div className="form-group">
               <label htmlFor="additionalNotes" className="form-label">Additional Notes</label>
-              <textarea id="additionalNotes" className="form-textarea" placeholder="Any special instructions, rush requests, parcel notes, or additional details..." value={form.additional_notes} onChange={e => set('additional_notes', sanitize(e.target.value, 1000))} />
+              <textarea id="additionalNotes" className="form-textarea" placeholder="Any special instructions, rush requests, parcel notes, or additional details..." value={form.additional_notes} onChange={e => set('additional_notes', sanitizeMultiline(e.target.value))} />
             </div>
             <div className="wizard-note-card">
               <h3>What happens after you submit</h3>
