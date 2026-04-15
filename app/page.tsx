@@ -4,6 +4,7 @@ import Image from 'next/image';
 import MobileStickyCta from '@/components/MobileStickyCta';
 import ReviewsCarousel from '@/components/ReviewsCarousel';
 import ScrollReveal from '@/components/ScrollReveal';
+import RotatingText from '@/components/RotatingText';
 
 export const metadata: Metadata = {
   title: 'Title Search Services from $10 | Neuskale - Nationwide Coverage',
@@ -64,7 +65,7 @@ export default function HomePage() {
               <span className="dot"></span>
               ALTA Member &bull; Nationwide Coverage
             </div>
-            <h1>Nationwide Title Searches <br />Starting at <span className="highlight">$10</span></h1>
+            <h1><RotatingText /> Title Searches <br />Starting at <span className="highlight">$10</span></h1>
             <p>The fastest, most affordable title search service in the United States. Expert abstractors, 20+ states and growing, results in 24–48 hours, with 24/7 dedicated support.</p>
             <div className="hero-buttons">
               <Link href="/contact" className="btn btn-primary btn-lg">Start Your Free Trial &rarr;</Link>
