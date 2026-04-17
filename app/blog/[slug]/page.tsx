@@ -18,8 +18,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = blogData.find(a => a.slug === params.slug);
   if (!article) return {};
   return {
-    title: `${article.title} | Neuskale Blog`,
+    title: article.title,
     description: article.desc,
+    alternates: { canonical: `https://www.neuskale.com/blog/${params.slug}` },
   };
 }
 
