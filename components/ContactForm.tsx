@@ -44,7 +44,10 @@ export default function ContactForm() {
     phone_number: '',
     search_type: '',
     state: '',
+    county: '',
     property_address: '',
+    parcel_number: '',
+    owner_name: '',
     additional_notes: '',
   });
 
@@ -70,6 +73,9 @@ export default function ContactForm() {
       if (!form.state) { setError('Please select a state.'); return false; }
       if (!form.property_address.trim() || form.property_address.trim().length < 5) {
         setError('Please enter a complete property address.'); return false;
+      }
+      if (!form.county.trim()) {
+        setError('Please enter the county.'); return false;
       }
     }
     setError('');
@@ -216,9 +222,25 @@ export default function ContactForm() {
                 </select>
               </div>
             </div>
-            <div className="form-group">
-              <label htmlFor="propertyAddress" className="form-label">Property Address *</label>
-              <input type="text" id="propertyAddress" className="form-input" placeholder="123 Main Street, City, State, ZIP" value={form.property_address} onChange={e => set('property_address', sanitize(e.target.value, 300))} autoComplete="street-address" />
+            <div className="form-row" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+              <div className="form-group">
+                <label htmlFor="propertyAddress" className="form-label">Property Address *</label>
+                <input type="text" id="propertyAddress" className="form-input" placeholder="123 Main Street, City, State, ZIP" value={form.property_address} onChange={e => set('property_address', sanitize(e.target.value, 300))} autoComplete="street-address" />
+              </div>
+              <div className="form-group">
+                <label htmlFor="county" className="form-label">County *</label>
+                <input type="text" id="county" className="form-input" placeholder="e.g. Hartford County" value={form.county} onChange={e => set('county', sanitize(e.target.value, 100))} />
+              </div>
+            </div>
+            <div className="form-row" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+              <div className="form-group">
+                <label htmlFor="parcelNumber" className="form-label">Parcel Number <span style={{ color: 'var(--text-muted)', fontWeight: 400 }}>(optional)</span></label>
+                <input type="text" id="parcelNumber" className="form-input" placeholder="e.g. 12-345-678" value={form.parcel_number} onChange={e => set('parcel_number', sanitize(e.target.value, 100))} />
+              </div>
+              <div className="form-group">
+                <label htmlFor="ownerName" className="form-label">Owner Name <span style={{ color: 'var(--text-muted)', fontWeight: 400 }}>(optional)</span></label>
+                <input type="text" id="ownerName" className="form-input" placeholder="e.g. Jane Doe" value={form.owner_name} onChange={e => set('owner_name', sanitize(e.target.value, 100))} />
+              </div>
             </div>
             <div className="form-group">
               <label htmlFor="additionalNotes" className="form-label">Additional Notes</label>
@@ -254,7 +276,10 @@ export default function ContactForm() {
                   <div className="wizard-summary-item"><span>Order Type</span><strong>{form.order_intent}</strong></div>
                   <div className="wizard-summary-item"><span>Search Type</span><strong>{form.search_type || '-'}</strong></div>
                   <div className="wizard-summary-item"><span>State</span><strong>{form.state || '-'}</strong></div>
+                  <div className="wizard-summary-item"><span>County</span><strong>{form.county || '-'}</strong></div>
                   <div className="wizard-summary-item"><span>Property</span><strong>{form.property_address || '-'}</strong></div>
+                  <div className="wizard-summary-item"><span>Parcel No.</span><strong>{form.parcel_number || 'Not provided'}</strong></div>
+                  <div className="wizard-summary-item"><span>Owner Name</span><strong>{form.owner_name || 'Not provided'}</strong></div>
                   <div className="wizard-summary-item"><span>Notes</span><strong>{form.additional_notes || 'No additional notes'}</strong></div>
                 </div>
               </div>
@@ -275,7 +300,7 @@ export default function ContactForm() {
             </button>
           )}
         </div>
-        <p className="pricing-note" style={{ marginTop: 12 }}>* Prices shown are starting prices and may vary by state, county, and parcel complexity. Additional abstractor fees may apply if ground searches or offline document retrieval are required. All fees will be communicated and approved before proceeding.</p>
+        <p className="pricing-note" style={{ marginTop: 12 }}>* Prices shown are starting prices and may vary by state, county, and parcel complexity. Additional abstractor fees may apply if ground searches or offline document retrieval are required. ETO is applicable for business orders only. All fees will be communicated and approved before proceeding.</p>
       </form>
     </div>
   );

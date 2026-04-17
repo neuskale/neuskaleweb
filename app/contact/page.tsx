@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import MobileStickyCta from '@/components/MobileStickyCta';
 import ContactForm from '@/components/ContactForm';
 
@@ -47,7 +46,10 @@ export default function ContactPage() {
         <input name="phone_number" />
         <input name="search_type" />
         <input name="state" />
+        <input name="county" />
         <input name="property_address" />
+        <input name="parcel_number" />
+        <input name="owner_name" />
         <textarea name="additional_notes" />
       </form>
 
@@ -67,9 +69,29 @@ export default function ContactPage() {
                   <div className="contact-info-icon">📧</div>
                   <div><p className="contact-info-label">Email</p><p className="contact-info-value"><a href="mailto:info@neuskale.com" style={{ color: 'var(--white)' }}>info@neuskale.com</a></p></div>
                 </div>
-                <div className="contact-info-item">
-                  <div className="contact-info-icon">📍</div>
-                  <div><p className="contact-info-label">Headquarters</p><p className="contact-info-value">701 John Fitch Blvd, Suite 101<br />South Windsor, CT 06074</p></div>
+                <div className="contact-info-item contact-offices-row">
+                  <div className="contact-office-mini">
+                    <div className="contact-office-mini-header">
+                      <span className="contact-office-flag">🇺🇸</span>
+                      <div>
+                        <p className="contact-office-region">North America</p>
+                        <p className="contact-office-title">USA Office</p>
+                      </div>
+                      <span className="contact-office-badge">HQ</span>
+                    </div>
+                    <p className="contact-office-address">701 John Fitch Blvd, Suite 101<br />South Windsor, CT 06074<br />United States</p>
+                  </div>
+                  <div className="contact-office-mini">
+                    <div className="contact-office-mini-header">
+                      <span className="contact-office-flag">🇮🇳</span>
+                      <div>
+                        <p className="contact-office-region">South Asia</p>
+                        <p className="contact-office-title">Salem Office</p>
+                      </div>
+                      <span className="contact-office-badge contact-office-badge-in">IN</span>
+                    </div>
+                    <p className="contact-office-address">41/12 B, 1st Floor, Pulikuthi Main Road<br />Gugai, Salem — 636006<br />Tamil Nadu, India</p>
+                  </div>
                 </div>
                 <div className="contact-info-item">
                   <div className="contact-info-icon">🕐</div>

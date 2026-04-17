@@ -63,9 +63,9 @@ export default function HomePage() {
           <div className="hero-content">
             <div className="hero-badge">
               <span className="dot"></span>
-              ALTA Member &bull; Nationwide Coverage
+              ALTA Member &bull; Qualia Partner
             </div>
-            <h1><RotatingText /> Title Searches <br />Starting at <span className="highlight">$10</span></h1>
+            <h1><RotatingText /> <br/>Title Searches </h1>
             <p>The fastest, most affordable title search service in the United States. Expert abstractors, 20+ states and growing, results in 24–48 hours, with 24/7 dedicated support.</p>
             <div className="hero-buttons">
               <Link href="/contact" className="btn btn-primary btn-lg">Start Your Free Trial &rarr;</Link>
