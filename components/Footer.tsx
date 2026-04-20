@@ -42,7 +42,7 @@ export default function Footer() {
             <div className="footer-links">
               <a href="tel:+1 860-327-5055">📞 +1 860-327-5055</a>
               <a href="mailto:info@neuskale.com">📧 info@neuskale.com</a>
-              <span>🕐 Available 24/7</span>
+              <span className="footer-address">🕐 Available 24/7</span>
             </div>
             <h4 className="footer-follow">Follow Us</h4>
             <div className="footer-social">

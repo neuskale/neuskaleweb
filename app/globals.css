@@ -1273,7 +1273,7 @@ p { margin-bottom: 0.75rem; color: var(--text-muted); line-height: 1.65; }
 .pricing-card.featured::before {
   content: 'MOST POPULAR';
   position: absolute;
-  top: -12px;
+  top: 0px;
   left: 50%;
   transform: translateX(-50%);
   background: var(--gradient-btn);
@@ -1283,10 +1283,11 @@ p { margin-bottom: 0.75rem; color: var(--text-muted); line-height: 1.65; }
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 1.5px;
+  height: 15px !important;
 }
 
 .pricing-card:hover { transform: translateY(-2px); }
-.pricing-name { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; }
+.pricing-name { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; margin-top:15px;}
 
 .pricing-amount {
   font-size: 2.2rem;

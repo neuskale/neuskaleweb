@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-const words = ['Nationwide', 'Affordable', 'AI-Powered','Qualia Partner'];
+const words = ['Nationwide', 'Affordable', 'AI-Powered','Qualia Powered'];
 
 export default function RotatingText() {
   const [index, setIndex] = useState(0);
