@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: 'Title Search Services | Nationwide Title Searches from $10 | Neuskale',
   description: 'Full suite of title search services starting at $10. Current owner, full title, lien, foreclosure, condo, and document retrieval. 20+ states, 24-48hr turnaround.',
   alternates: { canonical: 'https://www.neuskale.com/title-search' },
+  keywords: [
+    'real estate title search', 'property title search', 'home title search', 'house title search',
+    'title search for property', 'homeowner title search', 'current owner search',
+    'full title search', 'chain of title', 'title and lien search',
+    'property lien search', 'lien search', 'foreclosure search',
+    'mobile home title search', 'land title search', 'mineral rights title search',
+    'property deed finder', 'title examination', 'document retrieval',
+  ],
 };
 
 const schema = {

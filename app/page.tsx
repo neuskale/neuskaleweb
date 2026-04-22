@@ -10,6 +10,12 @@ export const metadata: Metadata = {
   title: 'Title Search Services from $10 | Neuskale - Nationwide Coverage',
   description: 'Fast, affordable title searches across 20+ states starting at $10. Less than 24-hour turnaround with 24/7 expert support. Order your title search today.',
   alternates: { canonical: 'https://www.neuskale.com/' },
+  keywords: [
+    'title search company', 'property title search company', 'real estate title search',
+    'automated title search', 'home title search', 'house title search',
+    'title search services', 'affordable title search', 'nationwide title search',
+    'online title search company', 'property title lookup',
+  ],
 };
 
 const activeStates = ['AL','CT','DE','FL','GA','IL','IN','KY','MD','MA','MI','MS','NJ','NY','NC','OH','PA','SC','TN','TX','VA'];

@@ -300,7 +300,13 @@ export default function ContactForm() {
             </button>
           )}
         </div>
-        <p className="pricing-note" style={{ marginTop: 12 }}>* Prices shown are starting prices and may vary by state, county, and parcel complexity. Additional abstractor fees may apply if ground searches or offline document retrieval are required. ETO is applicable for business orders only. All fees will be communicated and approved before proceeding.</p>
+        <p className="pricing-note" style={{ marginTop: 12 }}>
+          * Disclaimer:
+          Prices shown are indicative starting rates and may vary based on state, county, and property complexity. Additional fees may apply for ground searches or offline document retrieval handled by local abstractors.
+
+          The Experience–Try–Order (ETO) offer is applicable exclusively to first-time B2B online orders from Title Companies, Attorney Firms, Title Insurance Companies, Mortgage Lenders, and similar industry professionals.
+
+          All applicable fees will be clearly communicated and require prior approval before proceeding with any order.</p>
       </form>
     </div>
   );

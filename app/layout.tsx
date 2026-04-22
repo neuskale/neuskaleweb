@@ -11,7 +11,15 @@ export const metadata: Metadata = {
     template: '%s | Neuskale',
   },
   description: 'Fast, affordable title searches across 20+ states starting at $10. Less than 24-hour turnaround with 24/7 expert support. Order your title search today.',
-  keywords: ['title search', 'property title search', 'lien search', 'nationwide title search', 'affordable title search', 'title search company'],
+  keywords: [
+    'title search', 'title search company', 'property title search', 'property title search company',
+    'real estate title search', 'lien search', 'property lien search', 'title and lien search',
+    'home title search', 'house title search', 'nationwide title search', 'affordable title search',
+    'automated title search', 'land title search', 'mobile home title search',
+    'cost of title search', 'property title search cost', 'title search services',
+    'property deed finder', 'chain of title', 'mineral rights title search',
+    'mass title lookup', 'bulk title search', 'online title search','free title search',
+  ],
   robots: { index: true, follow: true },
   openGraph: {
     type: 'website',
